@@ -20,6 +20,7 @@ const Counter = ({ initialCount }) => {
   };
   return (
     <div>
+      <h1>Counter</h1>
       <h3>
         count : <h1 data-testid="count">{count}</h1>
       </h3>
